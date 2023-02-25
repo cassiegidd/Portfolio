@@ -20,10 +20,11 @@ navbar {
 .header-img {
     border: double greenyellow 7px;
     margin: 40px 80px;
+
 }
 .header-nav {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 0px;
     right: 10px;
 }
@@ -42,4 +43,17 @@ a {
     text-decoration: none;
     padding: 0px 100px;
     color: black;
+}
+
+section {
+    border-bottom: black solid 5px;
+}
+
+section h2 {
+    display: flex;
+    margin-left: 45%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .60em;
+    
 }
