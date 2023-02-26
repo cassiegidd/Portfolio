@@ -87,6 +87,14 @@ h3 {
     margin: 100px 38px 20px 80px; 
 }
 
-#horiseon {
-    margin: -20px 0px 10px 80px;
+#projects img {
+    border: teal double 7px;
+}
+
+#horiseon, #place-holder-1, #place-holder-2 {
+    margin: -20px 0px 50px 80px;
+}
+
+#place-holder-1 {
+    display: flex;
 }
