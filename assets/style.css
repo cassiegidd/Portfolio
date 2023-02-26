@@ -18,7 +18,7 @@ navbar {
     align-items: flex-start;
 }
 #header-img {
-    border: double greenyellow 7px;
+    border: double teal 7px;
     margin: 40px 80px;
     
 
@@ -39,7 +39,7 @@ navbar {
     list-style-type: none;
 }
 
-a {
+.header-nav a {
     resize: none;
     width: 100px;
     text-decoration: none;
@@ -76,18 +76,17 @@ a {
 }
 
 #projects {
+    margin: 0px;
     background-color: aliceblue;
 }
 
 h3 {
     font-size: 31px;
+    line-height: 100px;
     font-family: Tilt Warp;
     margin: 100px 38px 20px 80px; 
 }
 
 #horiseon {
-    height: 400px;
-    width: 800px;
-    background-image: url("https://lh4.googleusercontent.com/4gW83Gu6zdxaPo7GBQM6WHcvDO9ZTeFhfd1g_nzwr-0ly2gaYMzB1YzqJ9VBMwiJkrs=w2400");
-    object-fit: repeat;
+    margin: -20px 0px 10px 80px;
 }
