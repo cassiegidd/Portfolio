@@ -18,7 +18,7 @@ navbar {
     align-items: flex-start;
 }
 #header-img {
-    border: double teal 7px;
+    border: double white 7px;
     margin: 40px 80px;
     
 
@@ -65,6 +65,7 @@ navbar {
 
 .content {
     margin: 60px 38px 20px 480px;
+    padding-top: 45px;
     text-align: justify;
     line-height: 22px;
 }
@@ -76,8 +77,9 @@ navbar {
 }
 
 #projects {
-    margin: 0px;
-    background-color: aliceblue;
+    
+    background-color: #b8e9f2;
+
 }
 
 h3 {
@@ -88,13 +90,34 @@ h3 {
 }
 
 #projects img {
-    border: teal double 7px;
+    border: white double 7px;
 }
 
 #horiseon, #place-holder-1, #place-holder-2 {
     margin: -20px 0px 50px 80px;
 }
-
-#place-holder-1 {
+ 
+footer {
     display: flex;
+    /* justify-content is centering list items on the y-axis */
+    justify-content: center;
+    
+}
+footer #contact-info ul {
+    display: flex;
+    /* align-items is centering all list items on center x-axis */
+    padding-bottom: 20px;
+    align-items: center;
+}    
+
+footer #contact-info ul li {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+
+}
+
+footer #contact-info ul li a {
+    text-decoration: underline;
+    padding: 20px 50px 20px 50px;
+    color: black;
 }
