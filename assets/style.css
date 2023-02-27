@@ -179,5 +179,21 @@ h4 {
         font-size: 30px; 
         margin-left: 500px; 
     }
-       
+
+    #horiseon img {
+        height: 300px;
+        width: 600px;
+    }
+    #place-holder-1 img,
+    #place-holder-2 img {
+        height: 250px;
+        width: 500px;
+    }   
+    footer #contact-info ul li {
+        padding: 2px 2px 2px 2px;
+    }
+    .content {
+        margin: 10px 30px 0px 480px;
+        padding-bottom: 0px;
+    }
 }
