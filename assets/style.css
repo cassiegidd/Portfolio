@@ -182,7 +182,6 @@ footer #contact-info a {
     } 
     .content-header h2 {
         display: flex;
-        color: white;
         right: 3%;  
     }
 
@@ -201,18 +200,12 @@ footer #contact-info a {
 
 }
 
-@media screen and (max-width:869px) {
-    header {
-        display: block;
-        justify-content: center;
-    }
-    
+@media screen and /*(min-width:719px) and*/ (max-width:869px) {
     .header-nav {
         display: block;
         right: 30%;
     }
     .content-header h2 {
-        color: teal;
         font-size: 30px;
         margin-left: 25%;
    }
@@ -247,55 +240,3 @@ footer #contact-info a {
     }
 }
 
-/* @media screen and (max-width:768px) {
-    .header-nav {
-        color: white;
-    }
-    .header-nav ul li a {
-        margin-right: 110px;
-        padding: 10px;
-        line-height: 1.5;
-    }
-
-    .header-nav ul {
-        display: block;
-        margin: 0 0 0 0;
-    
-    }
-    .content-header h2 {
-        color: black;  
-        font-size: 30px; 
-        margin-left: 500px; 
-
-    }
-
-    #projects h3 {
-        margin-top: 35px;
-    }
-
-    #horiseon img {
-        height: 300px;
-        width: 600px;
-    }
-    #place-holder-1 img,
-    #place-holder-2 img {
-        height: 250px;
-        width: 500px;
-    }   
-    footer #contact-info ul li {
-        padding: 2px 2px 2px 2px;
-    }
-    .content {
-        margin: 10px 30px 0px 480px;
-        padding-bottom: 0px;
-    }
-}
-@media screen and (max-width:420px) {
-    .header-nav h1 ul li {
-        color: white;
-    }
-    .content-header h2 {
-        background-color: teal;
-        color: white; 
-    }
-} */
