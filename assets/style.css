@@ -11,28 +11,37 @@ header {
     border-bottom: 10px solid black;
     background-color: orchid;
 }
-navbar {
+
+/* unecessary code? class "header-nav" replaces it */
+/* navbar {
     margin: 0px;
     display: flex;
     position: relative;
     align-items: flex-start;
-}
+} */
+
 #header-img {
     border: double white 7px;
     margin: 40px 80px;
     
 
 }
+/*unecessary code?*/
+/* 
 .header-nav {
     display: flex;
     position: absolute;
     top: 0px;
     right: 10px;
-}
+} */
 
-.header-nav ul {
+.header-nav {
     display: flex;
+    flex-wrap: absolute;
     flex-wrap: wrap;
+    position: absolute;
+    right: 10px;
+    top: 30px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -40,8 +49,7 @@ navbar {
 }
 
 .header-nav a {
-    resize: none;
-    width: 100px;
+    display: inline-block;
     text-decoration: none;
     padding: 0px 100px;
     color: black;
@@ -51,7 +59,7 @@ navbar {
     border-bottom: black solid 5px;
 }
 
-.content-header h2 {
+h2 {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -60,10 +68,9 @@ navbar {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: .60em;
     position: relative;  
-    
 }
 
-.content {
+#about {
     margin: 60px 38px 20px 480px;
     padding-top: 32px;
     text-align: justify;
@@ -72,7 +79,7 @@ navbar {
     font-size: 15px;
 }
 
-.content::first-line {
+#about::first-line {
     line-height: 35px;
     font-size: 31px;
     font-family: Tilt Warp;
@@ -82,6 +89,9 @@ navbar {
     background-color: #b8e9f2;
     padding-bottom: 18px;
 
+}
+#projects div:hover {
+    transform: scale(1.1);
 }
 
 h3 {
@@ -100,9 +110,7 @@ h3 {
     margin: -20px 0px 10px 80px;
 }
 
-#projects div:hover {
-    transform: scale(1.1);
-}
+
 
  
 footer {
@@ -111,27 +119,35 @@ footer {
     justify-content: center;
     
 }
-footer #contact-info ul {
+footer #contact-info {
     display: flex;
     /* align-items is centering all list items on center x-axis */
     padding-bottom: 20px;
     align-items: center;
-}    
+}  
 
-footer #contact-info ul li {
-    display: flex;
-    padding: 20px 50px 20px 50px;
-
+h4 {
+    font-family: Tilt Warp;
+    font-size: 25px;
+    text-decoration: none;
 }
 
-footer #contact-info ul li a {
+
+footer #contact-info li {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+footer #contact-info a {
     text-decoration: underline;
     padding: 20px 50px 20px 50px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#horiseon-title, #airbnb-title, #google-title {
+.title-box {
     background-color: orchid;
     color: white;
     height: 50px;
@@ -157,10 +173,6 @@ footer #contact-info ul li a {
 
 }
 
-h4 {
-    font-family: Tilt Warp;
-    font-size: 25px;
-}
 
 @media screen and (max-width:768px) {
     .header-nav ul li a {
@@ -178,6 +190,7 @@ h4 {
         color: black;  
         font-size: 30px; 
         margin-left: 500px; 
+
     }
 
     #projects h3 {
@@ -201,9 +214,8 @@ h4 {
         padding-bottom: 0px;
     }
 }
-@media screen and (max-width:390px) {
-    .header-nav ul li a {
-        background-color: teal;
+@media screen and (max-width:420px) {
+    .header-nav h1 ul li {
         color: white;
     }
     .content-header h2 {
