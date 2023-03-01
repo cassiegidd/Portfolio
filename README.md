@@ -7,11 +7,14 @@ This portfolio will be used to market my skills and education to potential emplo
 ## Usage
 The user can click through active links in the menu at the top of the webpage to navigate to my different projects. The links in the 'contact info' section at the bottom page can be clicked to take the user to direct contact methods. 
 
-<img width="1440" alt="Screen Shot 2023-02-23 at 4 19 17 PM" src="https://user-images.githubusercontent.com/124100826/221054569-bf6217f7-7037-4e52-86c7-d4fe8a858958.png">
 
-<img width="1440" alt="Screen Shot 2023-02-23 at 4 19 40 PM" src="https://user-images.githubusercontent.com/124100826/221054795-1bbc6891-57a0-441e-a247-c124ca57e32b.png">
+<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/Screen Shot 2023-03-01 at 2.19.29 PM.png">
 
-<img width="1440" alt="Screen Shot 2023-02-23 at 4 19 31 PM" src="https://user-images.githubusercontent.com/124100826/221055092-5ec80ca0-0465-4e6c-a17f-e05d1a253c83.png">
+
+<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/Screen Shot 2023-03-01 at 2.19.46 PM.png">
+
+
+<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/images/Screen Shot 2023-03-01 at 2.20.01 PM.png">
 
 
 ## License
