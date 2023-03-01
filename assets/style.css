@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    width: auto;
+    width: 100%;
     margin: 0px;
+    padding: 0px;
     background-color: bisque;
 }
 
 header {
-    width: auto;
+    /* width: 100%; */
     height: 200px;
     border-top: 10px solid black;
     border-bottom: 10px solid black;
@@ -37,7 +42,6 @@ header {
 
 .header-nav {
     display: flex;
-    flex-wrap: absolute;
     flex-wrap: wrap;
     position: absolute;
     right: 10px;
@@ -165,16 +169,88 @@ footer #contact-info a {
 #projects div::first-line {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px
+    font-size: 20px;
 }
 
 #projects div a {
     text-decoration: none;
+}
+
+@media screen and (min-width:870px) and (max-width:1250px) {
+    .header-nav {
+        display:block;
+    } 
+    .content-header h2 {
+        display: flex;
+        color: white;
+        right: 3%;  
+    }
+
+    #header-img {
+        height: 300px;
+        width: 225px;
+    }
+
+    #about {
+        margin: 60px 38px 20px 80px;
+    }
+
+    footer #contact-info li {
+        padding: 5px 15px 5px 15px;
+    }
 
 }
 
+@media screen and (max-width:869px) {
+    header {
+        display: block;
+        justify-content: center;
+    }
+    
+    .header-nav {
+        display: block;
+        right: 30%;
+    }
+    .content-header h2 {
+        color: teal;
+        font-size: 30px;
+        margin-left: 25%;
+   }
 
-@media screen and (max-width:768px) {
+    #header-img {
+        height: 150px;
+        width: 100px;
+        position: relative;
+        top: 400px;
+        left: 3%;
+    }
+
+    #about {
+        margin-top: 30px;
+        position: relative;
+        left: -200px;
+        color:purple;
+    }
+
+    #projects img {
+        height: 150px;
+        width: 300px;
+    }
+    footer #contact-info li {
+        padding: 0px 3px 1px 3px;
+    }
+    .title-box {
+        height: auto;
+        width: 100px;
+        position: relative;
+        top: -72px;
+    }
+}
+
+/* @media screen and (max-width:768px) {
+    .header-nav {
+        color: white;
+    }
     .header-nav ul li a {
         margin-right: 110px;
         padding: 10px;
@@ -222,4 +298,4 @@ footer #contact-info a {
         background-color: teal;
         color: white; 
     }
-}
+} */
