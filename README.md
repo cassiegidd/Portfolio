@@ -8,10 +8,10 @@ This portfolio will be used to market my skills and education to potential emplo
 The user can click through active links in the menu at the top of the webpage to navigate to my different projects. The links in the 'contact info' section at the bottom page can be clicked to take the user to direct contact methods. 
 
 
-<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/Screen Shot 2023-03-01 at 2.19.29 PM.png">
+<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/images/Screen Shot 2023-03-01 at 2.19.29 PM.png">
 
 
-<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/Screen Shot 2023-03-01 at 2.19.46 PM.png">
+<img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/images/Screen Shot 2023-03-01 at 2.19.46 PM.png">
 
 
 <img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/images/Screen Shot 2023-03-01 at 2.20.01 PM.png">
