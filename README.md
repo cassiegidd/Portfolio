@@ -18,6 +18,9 @@ https://cassiegidd.github.io/Portfolio/
 
 <img src="/Users/cassandragiddings/bootcamp/Portfolio/assets/images/Screen Shot 2023-03-01 at 2.20.01 PM.png">
 
+## Credits
+
+As place-holders for future projects, I used popular websites. This is meant as a joke and not intended to imply that I actually had anything to do with writing the code on Airbnb or Google, or that I have ever had any working relationship with either of those companies at all.
 
 ## License
 MIT License
